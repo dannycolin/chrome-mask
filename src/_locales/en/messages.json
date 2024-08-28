@@ -33,5 +33,13 @@
 
   "maskStatusOff": {
     "message": "The mask is off. I look like Firefox to this site."
+  },
+
+  "optionHostnamesListHeader": {
+    "message": "Enabled Hostnames"
+  },
+
+  "optionHostnamesListText": {
+    "message": "Your hostname list is empty."
   }
 }

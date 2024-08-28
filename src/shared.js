@@ -57,6 +57,10 @@ class EnabledHostnamesList {
     return this.#set.has(hostname);
   }
 
+  get_size() {
+    return this.#set.size;
+  }
+
   get_values() {
     return this.#set.values();
   }

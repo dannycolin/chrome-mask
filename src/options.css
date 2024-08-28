@@ -1,0 +1,47 @@
+:root {
+  --background-color: #23222b;
+  --border-color: #717079;
+  --button-background-color: #33323a;
+  --color: #fff;
+
+  @media (prefers-color-scheme: light) {
+    --background-color: #fff;
+    --border-color: #c4c4c5;
+    --color: #15141a;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  margin-inline: 8px;
+}
+
+.hostnamesItem {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  margin-block: 8px;
+}
+
+.hostnamesItem p {
+  flex: 1 0 auto;
+}
+
+button {
+  background-color: var(--button-background-color);
+  border: none;
+  border-radius: 4px;
+  color: var(--color);
+  height: 32px;
+  padding-inline: 16px;
+}
+
+input {
+  background-color: #131313;
+  border: 1px solid var(--button-background-color);
+  border-radius: 4px;
+  color: var(--color);
+  height: 32px;
+  padding-inline: 8px;
+}

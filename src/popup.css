@@ -16,9 +16,20 @@ body {
   background-color: var(--background-color);
   color: var(--color);
   font-family: sans-serif;
-  margin: 0 auto;
+  margin: 8px auto;
   padding: 0 0.5rem;
   width: 290px;
+}
+
+button {
+  background-color: #353535;
+  border: 1px solid #353535;
+  border-radius: 4px;
+  color: var(--color);
+  font-weight: bold;
+  font-size: 0.85em;
+  height: 32px;
+  width: 100%;
 }
 
 h2 {
